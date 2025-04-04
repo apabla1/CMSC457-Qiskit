@@ -6,6 +6,7 @@
 
 ### Goals:
 Simulate:
+
     - Uniform Distriution
     - Binomial Distribution
     - Poisson Distribution
