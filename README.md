@@ -1,3 +1,7 @@
+# CMSC 457 Project Code
+
+Here, we create circuits using Qiskit and simulate probability distributions using aer and matplotlib
+
 ### How probability distributions work:
 > - [https://medium.com/qiskit/systematic-preparation-of-arbitrary-probability-distribution-with-aquantum-computer-165dfd8fbd7d](https://medium.com/qiskit/systematic-preparation-of-arbitrary-probability-distribution-with-aquantum-computer-165dfd8fbd7d)
 
