@@ -4,7 +4,7 @@
 ### Actual paper(s) doing analysis:
 > - https://arxiv.org/pdf/2208.13372
 
-###Goals:
+### Goals:
 Simulate:
     - Uniform Distriution
     - Binomial Distribution
