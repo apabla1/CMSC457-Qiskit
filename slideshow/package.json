@@ -1,0 +1,24 @@
+{
+  "name": "dq-learning",
+  "version": "1.0.0",
+  "description": "> SWEs: _Please read the Reveal.js documentation first!!_ > - Pay special note to how the auto-animate feature and the transitions work. > - Please use the first example (`t01u1.html`) as reference for all other slideshows. We will be separating each slidedeck by topic and unit. > - Topics and units will be posted on the [drive](https://drive.google.com/drive/u/0/folders/1ubceyjvpVe51T0m7NlK76SIQvqe8e24f) (if you don't have access, email me asap! apabla@terpmail.umd.edu) > - We are working on adding content as soon as possible!! But if there is not enough content, please create the general slide outline using the same formatting as `t01u1.html`. > - If you think it would be helpful, add an HTML outline that each slidedeck will have (all the scripts added, first \"Do Quantum\" slide, etc.). Make it easy for yourselves. This will take a lot of time. > - Please note the bugs below. Try to utilize the documentation to find workarounds. I don't think there are configuration issues right now but you are welcome to check. > - Remember to merge changes before you push! Please resolve any forks that you create. > - Finally, if we are still working on LaTeX diagrams and you need them, see if you can make your own or use a placeholder. > - Please email me with questions! apabla@terpmail.umd.edu  > - Thank you in advance!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apabla1/dq-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apabla1/dq-learning/issues"
+  },
+  "homepage": "https://github.com/apabla1/dq-learning#readme",
+  "dependencies": {
+    "reveal.js-menu": "^2.1.0",
+    "reveal.js-toolbar": "^0.2.1"
+  }
+}

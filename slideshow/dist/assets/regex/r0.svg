@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="165.5" cy="184.5" rx="30" ry="30"/>
+	<text x="153.5" y="190.5" font-family="Times New Roman" font-size="20">S0</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="305.5" cy="184.5" rx="30" ry="30"/>
+	<text x="293.5" y="190.5" font-family="Times New Roman" font-size="20">S1</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="305.5" cy="184.5" rx="24" ry="24"/>
+	<path stroke="black" stroke-width="1" fill="none" d="M 187.457,164.269 A 88.373,88.373 0 0 1 283.543,164.269"/>
+	<polygon fill="black" stroke-width="1" points="283.543,164.269 279.547,155.723 274.11,164.117"/>
+	<text x="229.5" y="141.5" font-family="Times New Roman" font-size="20">1</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 280.907,201.493 A 102.602,102.602 0 0 1 190.093,201.493"/>
+	<polygon fill="black" stroke-width="1" points="190.093,201.493 195.055,209.517 199.48,200.55"/>
+	<text x="229.5" y="233.5" font-family="Times New Roman" font-size="20">0</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 178.725,211.297 A 22.5,22.5 0 1 1 152.275,211.297"/>
+	<text x="159.5" y="273.5" font-family="Times New Roman" font-size="20">0</text>
+	<polygon fill="black" stroke-width="1" points="152.275,211.297 143.527,214.83 151.618,220.708"/>
+	<path stroke="black" stroke-width="1" fill="none" d="M 318.725,211.297 A 22.5,22.5 0 1 1 292.275,211.297"/>
+	<text x="299.5" y="273.5" font-family="Times New Roman" font-size="20">1</text>
+	<polygon fill="black" stroke-width="1" points="292.275,211.297 283.527,214.83 291.618,220.708"/>
+	<polygon stroke="black" stroke-width="1" points="123.5,132.5 146.65,161.162"/>
+	<polygon fill="black" stroke-width="1" points="146.65,161.162 145.513,151.797 137.733,158.08"/>
+</svg>
+

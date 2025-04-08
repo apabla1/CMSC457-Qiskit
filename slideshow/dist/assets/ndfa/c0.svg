@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="141.5" cy="219.5" rx="30" ry="30"/>
+	<text x="123.5" y="225.5" font-family="Times New Roman" font-size="20">DFA</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="373.5" cy="219.5" rx="30" ry="30"/>
+	<text x="355.5" y="225.5" font-family="Times New Roman" font-size="20">NFA</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="258.5" cy="391.5" rx="30" ry="30"/>
+	<text x="246.5" y="397.5" font-family="Times New Roman" font-size="20">RE</text>
+	<polygon stroke="black" stroke-width="1" points="343.5,219.5 171.5,219.5"/>
+	<polygon fill="black" stroke-width="1" points="171.5,219.5 179.5,224.5 179.5,214.5"/>
+	<text x="191.5" y="210.5" font-family="Times New Roman" font-size="20">can convert</text>
+	<polygon stroke="black" stroke-width="1" points="275.174,366.561 356.826,244.439"/>
+	<polygon fill="black" stroke-width="1" points="356.826,244.439 348.222,248.311 356.536,253.869"/>
+	<text x="322.5" y="324.5" font-family="Times New Roman" font-size="20">can convert</text>
+	<polygon stroke="black" stroke-width="1" points="158.373,244.305 241.627,366.695"/>
+	<polygon fill="black" stroke-width="1" points="241.627,366.695 241.261,357.268 232.993,362.892"/>
+	<text x="61.5" y="324.5" font-family="Times New Roman" font-size="20">can convert</text>
+</svg>
+

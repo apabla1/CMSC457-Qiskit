@@ -1,0 +1,146 @@
+.fixvert{
+  top: 0px !important;
+}
+.fixinner{
+  top: 100px !important;
+}
+.container{
+  display: flex;
+}
+.topright {
+  position: fixed !important;
+  top: -1vh !important;
+  right: -7vw !important;
+}
+.first-thing{
+  background:purple;
+  top:100px;
+}
+mark.grey{
+  color:#808080;
+  background: none;
+}
+mark.red {
+  color:#ff0000;
+  background: none;
+}
+mark.blue {
+  color:#0000A0;
+  background: none;
+}
+mark.cyan{
+  color:cyan;
+  background: none;
+}
+mark.green{
+  color:green;
+  background: none;
+}
+mark.orange{
+  color:orange;
+  background: none;
+}
+mark.purple{
+  color:purple;
+  background: none;
+}
+
+.tl-diamond {
+  position:fixed;
+  width:40px;
+  height:40px;
+  transform:rotate(45deg);
+  left:180px;
+}
+.tl-square {
+  position:fixed;
+  width:40px;
+  height:40px;
+}
+.tl-circle {
+  background:black;
+  position:fixed;
+  left:20px;
+  width:15px;
+  height:15px;
+  border-radius: 50%;
+}
+.tl-sub-circle {
+  background:black;
+  position:fixed;
+  left:40px;
+  width:15px;
+  height:15px;
+  border-radius: 50%;
+}
+.tl-data{
+  position:fixed;
+  left:250px;
+}
+.tl{
+  background:black;
+  position:fixed;
+  left:195px;
+  width:10px;
+  height:40px;
+  z-index:-1;
+}
+
+.bline {
+  border-style:hidden hidden solid hidden;
+}
+
+.dline {
+  border-style:hidden hidden hidden solid;
+}
+.aline {
+  border-style:solid hidden hidden hidden;
+}
+.abox{
+  border-style:solid;
+}
+
+.la {
+  text-align:left;
+}
+
+.vennd {
+  height: 50px;
+  width: 50px;
+  position:absolute;
+  background-color: transparent;
+  border:solid;
+  border-color:black;
+  border-radius: 50%;
+}
+
+.mytd,.myth {
+  border:hidden;
+  }
+
+#mytab td, #mytab th{
+  border:2px solid #ddd;
+}
+
+.arg {
+  text-align:left;
+  padding-left:90px;
+}
+
+.fragment.fade-in,
+.move-up.fragment {
+  transition: all 0.5s ease-in !important;
+}
+
+.math.fade-in,
+.move-up.fragment {
+  transition: all 0.5s ease-in !important;
+}
+
+.fragment.fade-out {
+  transition: all 0.5s ease-out !important;
+}
+
+.math.fade-out {
+  transition: all 0.5s ease-out !important;
+}

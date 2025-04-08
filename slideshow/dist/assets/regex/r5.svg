@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="105.5" cy="193.5" rx="30" ry="30"/>
+	<text x="99.5" y="199.5" font-family="Times New Roman" font-size="20">0</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="105.5" cy="193.5" rx="24" ry="24"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="105.5" cy="402.5" rx="30" ry="30"/>
+	<text x="99.5" y="408.5" font-family="Times New Roman" font-size="20">1</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="105.5" cy="402.5" rx="24" ry="24"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="283.5" cy="193.5" rx="30" ry="30"/>
+	<text x="277.5" y="199.5" font-family="Times New Roman" font-size="20">2</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="283.5" cy="193.5" rx="24" ry="24"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="399.5" cy="364.5" rx="30" ry="30"/>
+	<text x="393.5" y="370.5" font-family="Times New Roman" font-size="20">3</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="399.5" cy="364.5" rx="24" ry="24"/>
+	<polygon stroke="black" stroke-width="1" points="63.5,141.5 86.65,170.162"/>
+	<polygon fill="black" stroke-width="1" points="86.65,170.162 85.513,160.797 77.733,167.08"/>
+	<path stroke="black" stroke-width="1" fill="none" d="M 93.264,375.134 A 222.997,222.997 0 0 1 93.264,220.866"/>
+	<polygon fill="black" stroke-width="1" points="93.264,375.134 95.188,365.898 85.805,369.357"/>
+	<text x="62.5" y="303.5" font-family="Times New Roman" font-size="20">a</text>
+	<polygon stroke="black" stroke-width="1" points="135.5,193.5 253.5,193.5"/>
+	<polygon fill="black" stroke-width="1" points="253.5,193.5 245.5,188.5 245.5,198.5"/>
+	<text x="188.5" y="214.5" font-family="Times New Roman" font-size="20">b</text>
+	<polygon stroke="black" stroke-width="1" points="131.433,208.583 373.567,349.417"/>
+	<polygon fill="black" stroke-width="1" points="373.567,349.417 369.166,341.073 364.138,349.717"/>
+	<text x="257.5" y="269.5" font-family="Times New Roman" font-size="20">c</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 270.534,220.548 A 480.541,480.541 0 0 1 130.139,385.394"/>
+	<polygon fill="black" stroke-width="1" points="130.139,385.394 139.543,384.645 133.587,376.612"/>
+	<text x="215.5" y="331.5" font-family="Times New Roman" font-size="20">a</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 308.748,209.662 A 227.573,227.573 0 0 1 393.817,335.065"/>
+	<polygon fill="black" stroke-width="1" points="393.817,335.065 396.622,326.058 386.95,328.597"/>
+	<text x="368.5" y="257.5" font-family="Times New Roman" font-size="20">c</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 372.032,376.55 A 476.426,476.426 0 0 1 135.129,407.17"/>
+	<polygon fill="black" stroke-width="1" points="372.032,376.55 362.745,374.892 366.472,384.172"/>
+	<text x="252.5" y="428.5" font-family="Times New Roman" font-size="20">c</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 115.179,374.115 A 335.453,335.453 0 0 1 257.017,207.574"/>
+	<polygon fill="black" stroke-width="1" points="257.017,207.574 247.587,207.334 252.669,215.946"/>
+	<text x="154.5" y="270.5" font-family="Times New Roman" font-size="20">b</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 378.469,343.113 A 492.31,492.31 0 0 1 295.596,220.948"/>
+	<polygon fill="black" stroke-width="1" points="295.596,220.948 294.532,230.322 303.556,226.012"/>
+	<text x="314.5" y="304.5" font-family="Times New Roman" font-size="20">b</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 134.687,395.565 A 1275.23,1275.23 0 0 1 369.509,365.214"/>
+	<polygon fill="black" stroke-width="1" points="134.687,395.565 143.59,398.686 141.393,388.93"/>
+	<text x="242.5" y="364.5" font-family="Times New Roman" font-size="20">a</text>
+</svg>
+

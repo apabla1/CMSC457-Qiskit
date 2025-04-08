@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Quantum Topic 1</title>
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+    <link rel="stylesheet" href="../dist/reveal.css">
+    <!-- <link rel="stylesheet" href="plugin/highlight/stackoverflow.css"> -->
+    <link rel="stylesheet" href="../dist/mystyle.css">
+    <link rel="stylesheet" href="../plugin/title-footer/title-footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- <script async src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> -->
+    <script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        .reveal h2 {
+            color: white;
+            font-size: 1.5em;
+        }
+        .reveal p, .reveal ul {
+            font-size: 0.75em;
+        }
+        .math {
+            font-size: 0.75em;
+            color: #FFD700;
+        }
+        .big-math {
+            font-size: 1.5em;
+            color: #FFD700;
+        }
+        .footer {
+            position: fixed;
+            bottom: 5;
+            left: 0;
+            width: 8%;
+            text-align: left;
+            background-color: magenta;
+            color: white;
+            z-index: 1000;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+<link href="../plugin/title-footer/title-footer.css" type="text/css" rel="stylesheet"></head>
+
+<!-- <div class="footer">© 2025 Do Quantum</div> -->
+
+<div class="reveal">
+    <div class="slides">
+
+        <!-- Introduction -->
+        <section data-auto-animate style="height: 900px;" data-menu-title="Cover">
+            <h1 style="color: magenta; margin-top: 0px;">Do Quantum</h1>
+            <img src="./images/Icon.png" alt="Contact us if embed fails!" style="width: 40%; height: 40%; object-fit: contain;">
+            <h3>Topic 1: Wave-Particle Duality + Uncertainty Principle</h3>
+        </section>
+
+        <!-- Objectives -->
+        <section data-auto-animate style="height: 900px;" data-menu-title="Objectives">
+            <img class="topright" src="./images/Icon.png" alt="Contact us if embed fails!" style="width: 10%; height: 10%"></img>
+            <h3>Topic 1: Wave-Particle Duality + Uncertainty Principle</h3>
+            <h2><u>Objectives</u></h2>
+            <p class="fade-in fragment" data-fragment-index="1">By the end of this section, you should be able to:</p>
+            <div class='fragment tl-square' data-fragment-index="2" data-id="1" style="background:darkred;top:325px;left:110px"></div>
+            <div class='fragment' data-fragment-index="2" style="position:fixed;left:200px;top:320px;font-size:0.6em;" data-id="text">Understand the wave-particle duality of quantum systems and how it differs from classical intuition.</div>
+            <div class='fragment tl-square' data-fragment-index="3" data-id="2" style="background:blue;top:400px;left:110px"></div>
+            <div class='fragment' data-fragment-index="3" style="position:fixed;left:200px;top:405px;font-size:0.6em;"">Explore the implications of Heisenberg’s Uncertainty Principle.</div>
+            <div class='fragment tl-square' data-fragment-index="4" data-id="3" style="background:green;top:475px;left:110px"></div>
+            <div class='fragment' data-fragment-index="4" style="position:fixed;left:200px;top:470px;font-size:0.6em;"">Analyze the relationship between position and momentum uncertainty in quantum systems.</div>
+            <div class='fragment tl-square' data-fragment-index="5" data-id="4" style="background:orange;top:550px;left:110px"></div>
+            <div class='fragment' data-fragment-index="5" style="position:fixed;left:200px;top:555px;font-size:0.6em;"">Apply these concepts to foundational ideas in quantum computing.</div>
+        </section>
+
+        <!-- Wave-Particle Duality -->
+        <section data-auto-animate style="height: 900px;" data-menu-title="Wave-Particle Duality">
+            <img class="topright" src="./images/Icon.png" alt="Contact us if embed fails!" style="width: 10%; height: 10%"></img>
+            <div style="position:fixed; left:10px; font-size:0.6em;" data-id="text">Understand the wave-particle duality of quantum systems and how it differs from classical intuition.</div>
+            <div class='tl-square' data-id="1" style="background:darkred;top:475px;left:-14vh;width:65px;height:65px"></div>
+            <div class='tl-square' data-id="2" style="background:blue;top:550px;left:-14vh;width:30px;height:30px"></div>
+            <div class='tl-square' data-id="3" style="background:green;top:590px;left:-14vh;width:30px;height:30px"></div>
+            <div class='tl-square' data-id="4" style="background:orange;top:630px;left:-14vh;width:30px;height:30px"></div>
+            
+            <br><br>
+            <p class="fade-in fragment">In classical physics, <span style="color: #FFD700;">particles</span> and <span style="color: #ADFF2F;">waves</span> are distinct.</p>
+            <ul>
+                <div style="display: flex; justify-content: space-between;">
+                    <li class="fade-in fragment" style="flex: 1; margin-right: 10px;"><span style="color: #FFD700;">Particles</span> are localized entities with specific positions and momentum.</li>
+                    <li class="fade-in fragment" style="flex: 1; margin-left: 10px;"><span style="color: #ADFF2F;">Waves</span> are extended and characterized by properties like wavelength and frequency.</li>
+                </div>
+            </ul>
+            <p class="fade-in fragment">However, in the quantum realm, objects such as <span style="color: #ff00b3;">electrons</span>, <span style="color: #ff00b3;">photons</span>, and even large molecules exhibit both <span style="color: #FFD700;">particle-like</span> and <span style="color: #ADFF2F;">wave-like</span> behaviors depending on the experimental setup.</p>
+            <p data-id="img" class="fade-in fragment">One of the most famous demonstrations of wave-particle duality is the <span style="font-style: italic; color: #FF4500;">double-slit experiment</span>:</p>
+        </section>
+        <section data-auto-animate style="height: 900px;" data-menu-title="Double-Slit Experiment">
+            <img class="topright" src="./images/Icon.png" alt="Contact us if embed fails!" style="width: 10%; height: 10%"></img>
+            <div class='tl-square' data-id="1" style="background:darkred;top:475px;left:-14vh;width:65px;height:65px"></div>
+            <div class='tl-square' data-id="2" style="background:blue;top:550px;left:-14vh;width:30px;height:30px"></div>
+            <div class='tl-square' data-id="3" style="background:green;top:590px;left:-14vh;width:30px;height:30px"></div>
+            <div class='tl-square' data-id="4" style="background:orange;top:630px;left:-14vh;width:30px;height:30px"></div>
+            <h2>The Double-Slit Experiment</h2>
+            <p data-id="img" class="fade-in">One of the most famous demonstrations of wave-particle duality is the <span style="font-style: italic; color: #FF4500;">double-slit experiment</span>:</p>
+            <div style="display: flex; align-items: flex-start;">
+                <img
+                  data-id="img"
+                  src="./images/1-doubleslit.jpg"
+                  alt="Contact us if embed fails!"
+                  style="width:35%; height:35%; object-fit:contain;"
+                />
+                <ul style="flex: 1; margin: 0 0 0 20px;">
+                  <li class="fade-in fragment" style="font-size: 0.8em">When <span style="color: #ff00b3;">electrons</span> pass through two slits without observation, they form an interference pattern, characteristic of <span style="color: #ADFF2F;">wave</span> behavior.</li> <br>
+                  <li class="fade-in fragment" style="font-size: 0.8em">When detectors are placed at the slits to observe which slit each <span style="color: #ff00b3;">electron</span> passes through, the interference pattern disappears, and the <span style="color: #ff00b3;">electrons</span> behave like <span style="color: #FFD700;">particles</span>.</li>
+                </ul>
+            </div>
+            <p class="fade-in fragment">This experiment illustrates that the act of <span style="color: #FF6347;">measurement</span> affects the behavior of quantum systems—a key principle in quantum mechanics.</p>
+        </section>
+        <section data-auto-animate style="height: 900px;" data-menu-title="Wavefunctions">
+            <section data-auto-animate style="height: 900px;">
+                <img data-id="logo" class="topright" src="./images/Icon.png" alt="Contact us if embed fails!" style="width: 10%; height: 10%"></img>
+                <div class='tl-square' data-id="1" style="background:darkred;top:475px;left:-14vh;width:65px;height:65px"></div>
+                <div class='tl-square' data-id="2" style="background:blue;top:550px;left:-14vh;width:30px;height:30px"></div>
+                <div class='tl-square' data-id="3" style="background:green;top:590px;left:-14vh;width:30px;height:30px"></div>
+                <div class='tl-square' data-id="4" style="background:orange;top:630px;left:-14vh;width:30px;height:30px"></div>
+                <h2 data-id="header">Mathematical Representation:</h2>
+                <p class="fade-in">This experiment illustrates that the act of <span style="color: #FF6347;">measurement</span> affects the behavior of quantum systems—a key principle in quantum mechanics.</p>
+                <p class="fade-in fragment" data-fragment-index="1">A particle’s wave-like nature is described by a wavefunction <span style="color: #FFD700;">\( \Psi(x, t) \)</span>, which determines <span style="color: #00FF00;">probability amplitude</span> of finding the particle at position <span style="color: #FFD700;">\( x \)</span> and time <span style="color: #FFD700;">\( t \)</span>.</p>
+                <p class="fade-in fragment" data-fragment-index="2">The square of the wavefunction's magnitude, <span style="color: #FFD700;">\( |\Psi(x, t)|^2 \)</span>, gives the <span style="color: #00ffff;">probability density</span> of the particle's position.</p>
+                <p class="fade-in fragment" data-fragment-index="3">The wavefunction evolves according to the <span style="color: #FF0000;">Schrödinger Equation</span>, which describes how the wavefunction changes over time.</p>
+                <p class="fade in fragment" data-fragment-index="4">We will get into detail about all of this later.</p>
+                <p class="fade-in fragment" data-fragment-index="4" style="font-size: 1.5em;"><u>Click the down arrow for a quiz!</u></p>
+            </section>
+
+            <!-- Quiz -->
+            <section data-auto-animate style="height: 900px;" data-menu-title="Double-Slit Quiz">
+                <img data-id="logo" class="topright" src="./images/Icon.png" alt="Contact us if embed fails!" style="width: 10%; height: 10%"></img>
+                <div class='tl-square' data-id="1" style="background:darkred;top:475px;left:-14vh;width:65px;height:65px"></div>
+                <div class='tl-square' data-id="2" style="background:blue;top:550px;left:-14vh;width:30px;height:30px"></div>
+                <div class='tl-square' data-id="3" style="background:green;top:590px;left:-14vh;width:30px;height:30px"></div>
+                <div class='tl-square' data-id="4" style="background:orange;top:630px;left:-14vh;width:30px;height:30px"></div>
+                <div>
+                    <div id="slickQuiz-0" aria-labelledby="slickQuiz-0-name" aria-live="polite" aria-relevant="additions" role="form">
+                            <h2 class="quizName" style="display: block;" id="slickQuiz-0-name"><span>Quiz</span></h2>
+                            <div class="quizArea">
+                                <div class="quizHeader" style="display: block;"><div class="quizDescription" style="color: #FF4500;">Test your double-slit knowledge!</div>
+                                    <!-- where the quiz main copy goes -->
+                                    <a class="button startQuiz" href="#question0" style="display: inline;" role="button">Get Started!</a>
+                                </div>
+                                <!-- where the quiz gets built -->
+                            <ol class="questions"><li class="question" id="question0"><div class="questionCount">Question <span class="current">1</span> of <span class="total">5</span></div><p>1. What number is the letter A in the English alphabet?</p><ul class="answers"><li><input id="slickQuiz-0_question0_0" name="slickQuiz-0_question0" type="radio"> <label for="slickQuiz-0_question0_0">8</label></li><li><input id="slickQuiz-0_question0_1" name="slickQuiz-0_question0" type="radio"> <label for="slickQuiz-0_question0_1">14</label></li><li><input id="slickQuiz-0_question0_2" name="slickQuiz-0_question0" type="radio"> <label for="slickQuiz-0_question0_2">1</label></li><li><input id="slickQuiz-0_question0_3" name="slickQuiz-0_question0" type="radio"> <label for="slickQuiz-0_question0_3">23</label></li></ul><ul class="responses"><li class="correct"><p><span>That's right!</span> The letter A is the first letter in the alphabet!</p></li><li class="incorrect"><p><span>Uhh no.</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p></li></ul><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button backToQuestion" role="button">Back</a><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button nextQuestion" role="button">Next »</a><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button checkAnswer" role="button">Check My Answer!</a></li><li class="question" id="question1"><div class="questionCount">Question <span class="current">2</span> of <span class="total">5</span></div><p>2. Which of the following best represents your preferred breakfast?</p><ul class="answers"><li><input id="slickQuiz-0_question1_0" name="slickQuiz-0_question1" type="radio"> <label for="slickQuiz-0_question1_0">Bacon and eggs</label></li><li><input id="slickQuiz-0_question1_1" name="slickQuiz-0_question1" type="radio"> <label for="slickQuiz-0_question1_1">Fruit, oatmeal, and yogurt</label></li><li><input id="slickQuiz-0_question1_2" name="slickQuiz-0_question1" type="radio"> <label for="slickQuiz-0_question1_2">Leftover pizza</label></li><li><input id="slickQuiz-0_question1_3" name="slickQuiz-0_question1" type="radio"> <label for="slickQuiz-0_question1_3">Eggs, fruit, toast, and milk</label></li></ul><ul class="responses"><li class="correct"><p><span>Nice!</span> Your cholestoral level is probably doing alright.</p></li><li class="incorrect"><p><span>Hmmm.</span> You might want to reconsider your options.</p></li></ul><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button backToQuestion" role="button">Back</a><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button nextQuestion" role="button">Next »</a><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button checkAnswer" role="button">Check My Answer!</a></li><li class="question" id="question2"><div class="questionCount">Question <span class="current">3</span> of <span class="total">5</span></div><p>3. Where are you right now? Select ALL that apply.</p><ul class="answers"><li><input id="slickQuiz-0_question2_0" name="slickQuiz-0_question2" type="checkbox"> <label for="slickQuiz-0_question2_0">Planet Earth</label></li><li><input id="slickQuiz-0_question2_1" name="slickQuiz-0_question2" type="checkbox"> <label for="slickQuiz-0_question2_1">Pluto</label></li><li><input id="slickQuiz-0_question2_2" name="slickQuiz-0_question2" type="checkbox"> <label for="slickQuiz-0_question2_2">At a computing device</label></li><li><input id="slickQuiz-0_question2_3" name="slickQuiz-0_question2" type="checkbox"> <label for="slickQuiz-0_question2_3">The Milky Way</label></li></ul><ul class="responses"><li class="correct"><p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p></li><li class="incorrect"><p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p></li></ul><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button backToQuestion" role="button">Back</a><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button nextQuestion" role="button">Next »</a><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button checkAnswer" role="button">Check My Answer!</a></li><li class="question" id="question3"><div class="questionCount">Question <span class="current">4</span> of <span class="total">5</span></div><p>4. How many inches of rain does Michigan get on average per year?</p><ul class="answers"><li><input id="slickQuiz-0_question3_0" name="slickQuiz-0_question3" type="radio"> <label for="slickQuiz-0_question3_0">149</label></li><li><input id="slickQuiz-0_question3_1" name="slickQuiz-0_question3" type="radio"> <label for="slickQuiz-0_question3_1">32</label></li><li><input id="slickQuiz-0_question3_2" name="slickQuiz-0_question3" type="radio"> <label for="slickQuiz-0_question3_2">3</label></li><li><input id="slickQuiz-0_question3_3" name="slickQuiz-0_question3" type="radio"> <label for="slickQuiz-0_question3_3">1291</label></li></ul><ul class="responses"><li class="correct"><p><span>Holy bananas!</span> I didn't actually expect you to know that! Correct!</p></li><li class="incorrect"><p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p></li></ul><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button backToQuestion" role="button">Back</a><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button nextQuestion" role="button">Next »</a><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button checkAnswer" role="button">Check My Answer!</a></li><li class="question" id="question4"><div class="questionCount">Question <span class="current">5</span> of <span class="total">5</span></div><p>5. Is Earth bigger than a basketball?</p><ul class="answers"><li><input id="slickQuiz-0_question4_0" name="slickQuiz-0_question4" type="radio"> <label for="slickQuiz-0_question4_0">Yes</label></li><li><input id="slickQuiz-0_question4_1" name="slickQuiz-0_question4" type="radio"> <label for="slickQuiz-0_question4_1">No</label></li></ul><ul class="responses"><li class="correct"><p><span>Good Job!</span> You must be very observant!</p></li><li class="incorrect"><p><span>ERRRR!</span> What planet Earth are <em>you</em> living on?!?</p></li></ul><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button backToQuestion" role="button">Back</a><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button nextQuestion lastQuestion" role="button">Next »</a><a href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" class="button checkAnswer" role="button">Check My Answer!</a></li></ol></div>
+                            <div class="quizResults">
+                                <p class="quizScore">Correct Answers: <span><!-- where the quiz score goes --></span></p>
+                                <p class="quizLevel"><span><!-- where the quiz ranking level goes --></span></p>
+                                <div class="quizResultsCopy">
+                                    <!-- where the quiz result copy goes -->
+                                <p><a class="button tryAgain" href="????" role="button">Try Again</a></p><p><a class="button nextSlide" href="https://schaepermeier.gitlab.io/reveal-quiz-demo/demo.html#" role="button">Continue Presentation</a></p></div>
+                            </div>
+                    </div>
+                    </div><script data-quiz="quiz1" src="./quizzes/quiz.js"></script>
+                  <div class="slide-footer"><br></div>
+            </section>
+        </section>
+
+        <!-- Uncertainty Principle -->
+        <section data-auto-animate style="height: 900px;" data-menu-title="Heisenberg Uncertainty">
+            <img data-id="logo" class="topright" src="./images/Icon.png" alt="Contact us if embed fails!" style="width: 10%; height: 10%"></img>
+            <div class='tl-square' data-id="1" style="background:darkred;top:475px;left:-14vh;width:30px;height:30px"></div>
+            <div class='tl-square' data-id="2" style="background:blue;top:515px;left:-14vh;width:65px;height:65px"></div>
+            <div class='tl-square' data-id="3" style="background:green;top:590px;left:-14vh;width:30px;height:30px"></div>
+            <div class='tl-square' data-id="4" style="background:orange;top:630px;left:-14vh;width:30px;height:30px"></div>
+            <h2 data-id="header">The Uncertainty Principle</h2>
+            <p class="fade-in" data-fragment-index="1">One of the foundational concepts of quantum mechanics is the <span style="color: #FF69B4; font-style: italic;">Heisenberg Uncertainty Principle</span>, formulated by Werner Heisenberg in the 1920s.</p>
+            <p class="fade-in fragment" data-fragment-index="2">It states that certain pairs of quantum properties—such as <span style="color: #00FF00;">position</span> (<span style="color: #FFD700;">\( x \)</span>) and <span style="color: #00FFFF;">momentum</span> (<span style="color: #FFD700;">\( p \)</span>)—are in a tradeoff.</p>
+            <ul>
+                <li class="fade-in fragment" data-fragment-index="3">The <span style="color: red;">more</span> precisely you know one property, the <span style="color: blue;">less</span> certain you can be about the other.</li>
+            </ul>
+            <p class="fade-in fragment" data-fragment-index="4">This relationship is described by the inequality:</p>
+            <div data-id="eq" class="fade-in fragment" data-fragment-index="4"><span style="color: #FFD700;">\( \Delta x \Delta p \geq \frac{\hbar}{2} \)</span></div>
+            <p class="fade-in fragment" data-fragment-index="4">(where <span style="color: #FFD700;">\( \Delta x \)</span> is the uncertainty in <span style="color: #00FF00;">position</span>, <span style="color: #FFD700;">\( \Delta p \)</span> is the uncertainty in <span style="color: #00FFFF;">momentum</span>, and <span style="color: #FFD700;">\( \hbar \)</span> is the reduced Planck constant.)</p>
+        </section>
+        <section data-auto-animate style="height: 900px;">
+            <img class="topright" src="./images/Icon.png" alt="Contact us if embed fails!" style="width: 10%; height: 10%"></img>
+            <div class='tl-square' data-id="1" style="background:darkred;top:475px;left:-14vh;width:30px;height:30px"></div>
+            <div class='tl-square' data-id="2" style="background:blue;top:515px;left:-14vh;width:30px;height:30px"></div>
+            <div class='tl-square' data-id="3" style="background:green;top:555px;left:-14vh;width:65px;height:65px"></div>
+            <div class='tl-square' data-id="4" style="background:orange;top:630px;left:-14vh;width:30px;height:30px"></div>
+            <div data-id="eq" class="fade-in"><span style="color: #FFD700;">\( \Delta x \Delta p \geq \frac{\hbar}{2} \)</span></div>
+            <ul>
+                <li class="fade-in fragment">Imagine a seesaw on a playground: one rider can only enjoy the view when the other sits near the ground.</li> <br>
+                <li class="fade-in fragment">Similarly, in the quantum world, if you pinpoint an <span style="color: #00FF00;">electron</span>’s location with precision, you lose certainty about how fast it’s moving, and vice versa.</li> 
+                <ul>
+                    <li class="fade-in fragment"><i>How?</i> Our wave-particle duality suggests that <span style="color: #00FF00;">electrons</span> behave like <span style="color: #ADFF2F;">waves</span> and <span style="color: #00d9ff;">particles</span> simultaneously.</li>
+                    <ul>
+                        <li class="fade-in fragment"> In this case, we can consider light as composed of small <span style="color: #00d9ff;">particles</span> of energy called <span style="color: #FF4500;">photons</span>.</li>
+                    </ul>
+                    <li class="fade-in fragment"> Because you need to shine <span style="color: #FF69B4;">light</span> on the <span style="color: #00FF00;">electron</span> to measure its <span style="color: #00BFFF;">position</span> (lowering <span style="color: #FFD700;">\( \Delta x \)</span>), the light’s <span style="color: #FF69B4;">photons</span> transfer <span style="color: #8A2BE2;">momentum</span> to the electron, increasing <span style="color: #FFD700;">\( \Delta p \)</span>.</li>
+                </ul><br>
+            </ul>
+            <p class="fade-in fragment">Although Heisenberg initially applied this principle to <span style="color: #00BFFF;">position</span> and <span style="color: #8A2BE2;">momentum</span>, it holds for other pairs of complementary quantum properties, such as <span style="color: #FF4500;">energy</span> and <span style="color: #ADFF2F;">time</span> - reflecting the fundamental limiting factor of nature.</p>
+        </section>
+
+        <!-- Applications to Quantum Computing -->
+        <section data-auto-animate style="height: 900px;" data-menu-title="Quantum Applications">
+            <img class="topright" src="./images/Icon.png" alt="Contact us if embed fails!" style="width: 10%; height: 10%"></img>
+            <div class='tl-square' data-id="1" style="background:darkred;top:475px;left:-14vh;width:30px;height:30px"></div>
+            <div class='tl-square' data-id="2" style="background:blue;top:515px;left:-14vh;width:30px;height:30px"></div>
+            <div class='tl-square' data-id="3" style="background:green;top:555px;left:-14vh;width:30px;height:30px"></div>
+            <div class='tl-square' data-id="4" style="background:orange;top:595px;left:-14vh;width:65px;height:65px"></div>
+            <h2>Applications in Quantum Computing</h2>
+            <p class="fade-in"><span style="color: #FF6347;">Wave-particle duality</span> and the <span style="color: #FF69B4;">uncertainty principle</span> is essential for grasping the behavior of <span style="color: #FFD700;">quantum bits (qubits)</span> in <span style="color: #00FF00;">quantum computers</span>:</p>
+            <ul>
+                <li class="fade-in fragment" style="font-size:0.85em"><span style="color: #FF4500;">Superposition</span>: <span style="color: #FFD700;">Qubits</span> can exist in a superposition of states, a direct result of <span style="color: #FF6347;">wave-particle duality</span>. Measurement collapses this superposition, limiting direct observation of <span style="color: #00FF00;">quantum states</span>.</li>
+                <li class="fade-in fragment" style="font-size:0.85em"><span style="color: #ADFF2F;">Entanglement</span>: <span style="color: #FF6347;">Wave-particle duality</span> and non-locality enable entanglement, where the state of one <span style="color: #FFD700;">qubit</span> instantaneously affects the state of another.</li>
+                <li class="fade-in fragment" style="font-size:0.85em"><span style="color: #00FFFF;">Quantum Gates</span>: Operations on <span style="color: #FFD700;">qubits</span> must account for uncertainty and avoid decoherence, which disrupts superposition and entanglement.</li>
+                <li class="fade-in fragment" style="font-size:0.85em"><span style="color: #FF00FF;">Coherence</span>: <span style="color: #FFD700;">Qubits</span> must maintain coherence during computations, and the <span style="color: #FF69B4;">uncertainty principle</span> governs the precision with which certain operations can be performed.</li>
+            </ul>
+            <p class="fade-in fragment">We will get into all of these topics as we progress.</p>
+        </section>           
+    </div>
+</div>
+<!-- <script src="dist/reveal.js"></script> -->
+<!-- <script src="plugin/highlight/highlight.js"></script> -->
+<!-- <script src="plugin/markdown/markdown.js"></script> -->
+<!-- <script src="plugin/math/math.js"></script> -->
+<!-- <script src="plugin/search/search.js"></script> -->
+<!-- <script src="plugin/zoom/zoom.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+<script src="../bower_components/reveal.js-menu/menu.js"></script>
+<script src="../node_modules/reveal.js-menu/menu.js"></script>
+<script src="../plugin/menu/menu.js"></script>
+<script>
+    Reveal.initialize({
+        plugins: [ RevealMenu ],
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        dependencies: [
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/plugin/math/math.js', async: true },
+            { src: '../plugin/quiz/js/quiz.js', async: true, callback: function() { prepareQuizzes({}); } },
+            { src: '../plugin/title-footer/title-footer.js', async: true, callback: function() { title_footer.initialize(); } },
+            { src: '../bower_components/toolbar.js' },
+            { src: '../node_modules/reveal.js-toolbar/toolbar.js' },
+            { src: '../plugin/toolbar/toolbar.js' }
+        ],
+        toolbar: {
+            fullscreen: false,
+            pause: false,
+            overview: false
+        },
+        menu: {
+            side: 'left',
+            numbers: true,
+            titleSelector: 'h1',
+            useTextContentForMissingTitles: false,
+            hideMissingTitles: true
+        }
+    });
+</script>
+
+</body>
+</html>

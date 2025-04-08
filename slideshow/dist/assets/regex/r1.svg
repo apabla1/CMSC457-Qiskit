@@ -1,0 +1,25 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="165.5" cy="184.5" rx="30" ry="30"/>
+	<text x="153.5" y="190.5" font-family="Times New Roman" font-size="20">S0</text>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="165.5" cy="184.5" rx="24" ry="24"/>
+	<ellipse stroke="black" stroke-width="1" fill="none" cx="303.5" cy="184.5" rx="30" ry="30"/>
+	<text x="291.5" y="190.5" font-family="Times New Roman" font-size="20">S1</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 187.301,164.111 A 86.358,86.358 0 0 1 281.699,164.111"/>
+	<polygon fill="black" stroke-width="1" points="281.699,164.111 277.732,155.552 272.267,163.926"/>
+	<text x="228.5" y="141.5" font-family="Times New Roman" font-size="20">1</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 279.016,201.641 A 100.089,100.089 0 0 1 189.984,201.641"/>
+	<polygon fill="black" stroke-width="1" points="189.984,201.641 194.926,209.677 199.373,200.721"/>
+	<text x="228.5" y="233.5" font-family="Times New Roman" font-size="20">0</text>
+	<path stroke="black" stroke-width="1" fill="none" d="M 178.725,211.297 A 22.5,22.5 0 1 1 152.275,211.297"/>
+	<text x="159.5" y="273.5" font-family="Times New Roman" font-size="20">0</text>
+	<polygon fill="black" stroke-width="1" points="152.275,211.297 143.527,214.83 151.618,220.708"/>
+	<path stroke="black" stroke-width="1" fill="none" d="M 316.725,211.297 A 22.5,22.5 0 1 1 290.275,211.297"/>
+	<text x="297.5" y="273.5" font-family="Times New Roman" font-size="20">1</text>
+	<polygon fill="black" stroke-width="1" points="290.275,211.297 281.527,214.83 289.618,220.708"/>
+	<polygon stroke="black" stroke-width="1" points="123.5,132.5 146.65,161.162"/>
+	<polygon fill="black" stroke-width="1" points="146.65,161.162 145.513,151.797 137.733,158.08"/>
+</svg>
+
